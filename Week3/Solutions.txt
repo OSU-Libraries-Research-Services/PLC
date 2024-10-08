@@ -1,0 +1,9 @@
+presidents_tenure=[]
+for president in presidents:
+    position=presidents.index(president)
+    tenure=tenure_dates[position]
+    president_tenure_dates=president+' '+tenure
+    presidents_tenure.append(president_tenure_dates)
+    print(president +', '+tenure)
+      
+print(presidents_tenure)
