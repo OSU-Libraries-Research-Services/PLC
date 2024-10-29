@@ -1,0 +1,7 @@
+## Count values
+### .value_counts()
+Summarizes the number of unique values in a column.
+
+publications_df['JournalTitle'].value_counts()
+
+publications_df['JournalTitle'].value_counts()[:10]

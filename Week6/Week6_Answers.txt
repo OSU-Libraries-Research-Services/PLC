@@ -1,0 +1,27 @@
+## Count values
+### .value_counts()
+Summarizes the number of unique values in a column.
+
+publications_df['JournalTitle'].value_counts()
+
+publications_df['JournalTitle'].value_counts()[:10]
+
+
+
+EXERCISE 4
+
+count_female_presidents=0
+for each_list in past_presidents:
+    gender=each_list[-1]
+    if gender == "female":
+        count_female_presidents += 1
+print(f" {count_female_presidents} female president(s) of The Ohio State University")
+
+
+EXERCISE 5
+count_nobel_prizes=0
+for key, value in nobel_pulitzer_dictionary.items():
+    if value['prize']=="Nobel":
+        count_nobel_prizes +=1
+
+print(count_nobel_prizes)
